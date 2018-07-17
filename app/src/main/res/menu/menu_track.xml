@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TopTracks">
+
+    <item
+        android:id="@+id/search_button"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/goto_top_artist"
+        android:title="Top Artists"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="refresh"
+        app:showAsAction="always" />
+
+</menu>
